@@ -1,0 +1,61 @@
+body {
+    background-image: url(../img/fondo1.jpg);
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    }
+    nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;   
+    padding: 0;
+    }
+    nav a {
+    color: white;
+    text-decoration: none;
+    }
+    main {
+    margin-top: 120px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    }
+    section, article {
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+    }
+    aside{
+        text-align: center;
+        color: white;
+    }
+    footer {
+        
+        background-color: #3c3c3c;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        width: 100%;
+    }
+    .piePagina{
+        background-color: #3c3c3c;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+       
+
+    }
